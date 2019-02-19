@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.7.
 
+## Install Dependencies
+Run `npm install` to install the dependencies listed in package.josn
+
 ## Build
 
 Run `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory. Then run `npm run package` to create a single file using build artifacts. To serve, run `npm run serve`.
