@@ -1,0 +1,24 @@
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>My angualr custom element</title>
+      
+      <script type="text/javascript" src="element_one.js"></script>
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    </head>
+    <body>
+            
+      <my-custom-element text="Highlight this text please!!!"></my-custom-element>
+
+      <script>
+        const element = document.querySelector('my-custom-element');
+        element.addEventListener('mouseenter', (event) => {
+            $(event.target).css("background", "yellow");          
+        });
+        element.addEventListener('mouseleave', (event) => {
+            $(event.target).css("background", "transparent");
+        });
+      </script>
+    </body>
+</html>
+    
